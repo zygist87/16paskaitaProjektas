@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("fonas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+header {
+  padding-top: 5%;
+  width: 65%;
+  text-align: center;
+}
+header.img {
+
+}
+section {
+  padding-top: 350px;
+  aside {
+    font-family: 'Kalam', cursive;
+    padding-left: 200px;
+    float: left;
+    width: 50%;
+  }
+  main {
+    font-family: 'Signika', sans-serif;
+    text-align: right;
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+}
+li:hover {
+  color: red;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
